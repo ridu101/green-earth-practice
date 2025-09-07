@@ -108,34 +108,46 @@
         </section>
 
         <!-- plant a tree section -->
-        <section class="bg-[#166534] p-6">
+        <section class="bg-[#166534] p-16">
 
             <div class="text-white space-y-4">
                 <h1 class="text-[25px] font-semibold text-center mt-16">Plant a Tree Today</h1>
 
-                <div class="flex flex-col space-y-3 bg-[#15803d] p-10 w-[600px] mx-auto">
+                <div class="flex flex-col space-y-3 bg-[#15803d] p-10 w-[600px] mx-auto rounded-lg">
                     <!-- Name -->
-                    <label for="name" class="text-sm">Your Name</label>
+
                     <input id="name" type="text" placeholder="Your Name" class="input input-accent w-ful" />
 
                     <!-- Email -->
-                    <label for="email" class="text-sm">Your Email Address</label>
-                    <input id="email" type="email" placeholder="Your Email Address"
-                        class="input input-accent w-ful" />
+
+                    <input id="email" type="email" placeholder="Your Email Address" class="input input-accent w-ful" />
 
                     <!-- Number of trees -->
-                    <label for="trees" class="text-sm">Number of Trees</label>
-                    <select id="trees" class="select select-success w-ful text-[black]">
+
+                    <label for="trees" class="sr-only">Number of Trees</label>
+                    <select id="trees" class="select select-success w-full text-black">
                         <option selected disabled>Number of Trees</option>
                         <option>10</option>
                         <option>50</option>
                         <option>100</option>
                     </select>
+
+                    <button
+                        class="btn hover:bg-white bg-[#facc15] rounded-3xl px-6 md:px-10 transform transition duration-300 hover:scale-105 hover:shadow-lg text-sm md:text-base">
+                        Get Involved
+                    </button>
                 </div>
+
             </div>
         </section>
 
+        
+
     </main>
+
+    <footer>
+        <p>© 2025 Green Earth. All Rights Reserved.</p>
+    </footer>
 
 </body>
 
