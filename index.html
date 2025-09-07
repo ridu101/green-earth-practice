@@ -1,15 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Green Earth</title>
-</head>
-<body>
-    <!-- navbar -->
-    <nav>
+    <!-- Tailwind Play CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
 
+    <!-- DaisyUI full CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.css" rel="stylesheet" type="text/css" />
+    <!-- font awesome kit -->
+    <script src="https://kit.fontawesome.com/7a5cb3f7b6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+ <header>
+       <!-- navbar -->
+    <nav>
+        <div class=" flex bg-[#15803d] justify-evenly items-center p-3">
+            <h1 class="text-white font-semibold text-[20px]">Green Earth</h1>
+            <div class=" text-white space-x-3">
+                <a href="">About</a>
+                <a href=""> Gallery</a>
+                <a href=""> Plant a Tree</a>
+            </div>
+            <button class="btn hover:bg-[white]  bg-[#facc15] rounded-3xl px-10">Plant a Tree</button>
+
+        </div>
     </nav>
-    
+    <!-- banner section -->
+     <div>
+        <div><img src="./assets/hero-leaf1.png" alt=""></div>
+        <div>
+            <h1>Plant a Tree, Grow a Future</h1>
+        </div>
+        <div><img src="./assets/hero-leaf2.png" alt=""></div>
+     </div>
+ </header>
+
 </body>
+
 </html>
